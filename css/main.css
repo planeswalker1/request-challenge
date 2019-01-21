@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #ed143d;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 8px #bd1030;
+  color: #ffffff;
+  font-size: 1.5em;
+  height: 100px;
+  outline: none;
+  padding: 15px 25px;
+  position: relative;
+  text-decoration: none;
+}
+
+.btn:active {
+  box-shadow: 0 0px #bd1030;
+  top: 8px;
+}
